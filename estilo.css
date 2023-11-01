@@ -55,13 +55,14 @@ body {
 }
 
 main {
-    background-color: #e2cddc;
-    height:100vh;
+    background-image: linear-gradient(to bottom, #762d63, #864374, #965985, #a76f97, #b785a9, #b785a9, #b785a9, #b785a9, #a76f97, #965985, #864374, #762d63);
+    height: 100%;
+    width: 100%;
     margin-top: 0;
 
 }
 
-footer {
+footer { 
     background-color: #762d63;
     height: 10vh;
 }
@@ -76,7 +77,8 @@ section {
     width: 100%;
     height: 100%;
     border-radius: 20%;
-
+padding-bottom: 50px;
+padding-top: 50px;
 }
 
 .foto_galeria {
@@ -85,11 +87,11 @@ section {
     width: 450px;
     background-position: center;
     border-radius: 20%;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 40px;
 
-
-    padding: 5px;
-    padding-left: 70px;
-    padding-right: 70px;
 }
 
 .CONOCENOS_TEXTO {
@@ -274,9 +276,10 @@ h3 {
 
 .mapa {
     display: inline-block;
-    width: 40%;
+    width: 500px;
     text-align: center;
     vertical-align: middle;
+    margin: 50px;
 }
 
 p {
@@ -289,10 +292,10 @@ p {
 }
 
 #formulario {
-    margin: 70px;
+    margin: 50px;
     display: inline-block;
     width: 600px;
-    height: 270px;
+    height: 500px;
     padding-top: 15px;
     border-radius: 35%;
     text-align: center;
@@ -301,8 +304,12 @@ p {
 }
 
 .contacto {
-    margin-top: 130px;
+    display: inline-block;
+    margin-top: 30px;
     width: 100%;
     text-align: center;
 }
- @media (max-width:)
+.error {height: 800px;
+    width: 100%;
+    
+}
