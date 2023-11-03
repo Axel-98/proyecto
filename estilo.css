@@ -115,8 +115,6 @@ h1 {
 #camisetas {
     height: 75vh;
     width: 100%;
-
-
 }
 
 .camisetas {
@@ -246,7 +244,7 @@ h3 {
     display: flex;
     justify-content: space-around;
 }
-
+ 
 .redes_sociales a {
     margin-top: 10px;
     padding-top: 10px;
@@ -311,5 +309,30 @@ p {
     width: 85%;
     display: inline-block;
     font-family: Arial, Helvetica, sans-serif;
+}
+@media (max-width: 1325px){#camisetas
+    {height: 150vh;}
+}
+@media (max-width: 1063px){
+    nav ul li {
+        display: block;
+        flex-direction: column;
+        }
+        h1{padding-top: 80px;}
+       #todos{width: 600px;
+            height: 500px;}
+    }
 
+@media (max-width: 715px){
+    nav ul li {
+        display: block;
+        flex-direction: column;
+        }
+       #todos{width: 450px;
+            height: 200px;}
+            a {
+                width: 20px;
+                height: 20px;
+    }
+    h1{padding-top: 80px;}
 }
